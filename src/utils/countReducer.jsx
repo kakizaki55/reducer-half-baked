@@ -1,10 +1,10 @@
-export default function countReducer(count, action) {
+export default function countReducer(banana, action) {
   switch (action.type) {
     case 'increment': {
-      return count + 1
+      return banana + 1
     }
     case 'decrement': {
-      return count - 1
+      return banana - 1
     }
     case 'reset': {
       return 0
